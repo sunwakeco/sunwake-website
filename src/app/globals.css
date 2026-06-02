@@ -1,26 +1,52 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ------------------------------------------------------------------ */
+/*  PHIN — brand design tokens                                         */
+/*  Warm highland palette: condensed-milk cream, espresso, jade, amber */
+/* ------------------------------------------------------------------ */
+
+@theme {
+  /* Surfaces */
+  --color-cream: #f7f1e6;
+  --color-paper: #fbf7ef;
+  --color-sand: #ede3d0;
+
+  /* Ink */
+  --color-espresso: #2b1d14;
+  --color-espresso-soft: #4a3528;
+
+  /* Brand accents */
+  --color-jade: #3f6b4f;
+  --color-jade-deep: #2e4f3a;
+  --color-amber: #c9712d;
+
+  /* Product tile tints */
+  --color-tile-blush: #e9d9cc;
+  --color-tile-mist: #dbe3da;
+  --color-tile-clay: #e2cdb8;
+  --color-tile-stone: #e0dcd2;
+
+  /* Type */
+  --font-display: var(--font-fraunces);
+  --font-sans: var(--font-inter);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-cream);
+  color: var(--color-espresso);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Small caps eyebrow label used across sections */
+.eyebrow {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 0.72rem;
+  font-weight: 600;
 }
