@@ -5,6 +5,7 @@ import { Subscribe } from "@/components/subscribe";
 import { Products } from "@/components/products";
 import { Press } from "@/components/press";
 import { Newsletter } from "@/components/newsletter";
+import { LeadMagnetBanner } from "@/components/lead-magnet-banner";
 import { SiteFooter } from "@/components/site-footer";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <Story />
+        <LeadMagnetBanner />
         <Products />
         <Subscribe />
         <Press />

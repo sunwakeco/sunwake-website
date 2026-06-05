@@ -18,7 +18,7 @@ export function Hero() {
         <div>
           <p className="eyebrow text-amber">Our Signature Blend</p>
           <h1 className="mt-5 font-display text-5xl font-semibold leading-[1.05] md:text-6xl">
-            Trường Sơn — the taste of two Vietnams in one cup
+            Sunwake
           </h1>
           <p className="mt-6 max-w-md text-lg leading-relaxed text-cream/80">
             Highland Arabica from the misty slopes of Đà Lạt, married to bold

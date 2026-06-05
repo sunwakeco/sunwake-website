@@ -47,3 +47,4 @@ generate_logos*.mjs
 invoice-*.html
 invoice-*.pdf
 phin-home.jpeg
+.env.local
