@@ -6,6 +6,7 @@ const COLUMNS = [
       { label: "Single Origin", href: "#collection" },
       { label: "Brew Kits", href: "#collection" },
       { label: "Subscriptions", href: "#subscribe" },
+      { label: "Merch", href: "#merch" },
     ],
   },
   {
@@ -13,17 +14,17 @@ const COLUMNS = [
     links: [
       { label: "How to brew a phin", href: "#story" },
       { label: "Our origin story", href: "#story" },
-      { label: "Arabica vs. Robusta", href: "#story" },
-      { label: "FAQ", href: "#" },
+      { label: "Arabica vs. Robusta", href: "/blog/arabica-vs-robusta-vietnamese-coffee" },
+      { label: "Blog", href: "/blog" },
     ],
   },
   {
     title: "Company",
     links: [
-      { label: "About PHIN", href: "#story" },
-      { label: "Wholesale", href: "#" },
+      { label: "About Sunwake", href: "#story" },
+      { label: "Coffee Waitlist", href: "/waitlist" },
+      { label: "Free Packing Guide", href: "/free-guide" },
       { label: "Contact", href: "#" },
-      { label: "Shipping & returns", href: "#" },
     ],
   },
 ];
@@ -35,7 +36,7 @@ export function SiteFooter() {
         <div className="grid gap-10 md:grid-cols-4">
           <div>
             <p className="font-display text-2xl font-semibold tracking-[0.25em] text-espresso">
-              PHIN
+              Sunwake
             </p>
             <p className="mt-3 max-w-xs text-sm text-espresso/60">
               Vietnamese signature-blend coffee. Roasted to order, shipped across
@@ -67,7 +68,7 @@ export function SiteFooter() {
             Brewed bold. Born in the highlands.
           </p>
           <p className="text-xs text-espresso/50">
-            © 2026 PHIN Coffee. All rights reserved.
+            © 2026 Sunwake Coffee. All rights reserved.
           </p>
         </div>
       </div>

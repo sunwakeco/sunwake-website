@@ -1,30 +1,38 @@
 @import "tailwindcss";
 
 /* ------------------------------------------------------------------ */
-/*  PHIN — brand design tokens                                         */
-/*  Warm highland palette: condensed-milk cream, espresso, jade, amber */
+/*  Sunwake — Tropical brand palette                                   */
+/*  Orange sunrise (#ff6522) + turquoise ocean (#0abbc8)              */
 /* ------------------------------------------------------------------ */
 
 @theme {
-  /* Surfaces */
-  --color-cream: #0abfbc;
-  --color-paper: #12ccc9;
-  --color-sand: #09a8a5;
+  /* Surfaces — warm tropical cream */
+  --color-cream: #fef9f0;
+  --color-paper: #fff9f5;
+  --color-sand: #ffe8d4;
 
-  /* Ink */
-  --color-espresso: #2b1d14;
-  --color-espresso-soft: #4a3528;
+  /* Ink — deep ocean teal */
+  --color-espresso: #0c2d2d;
+  --color-espresso-soft: #1a4545;
 
   /* Brand accents */
-  --color-jade: #3f6b4f;
-  --color-jade-deep: #2e4f3a;
-  --color-amber: #c9712d;
+  --color-jade: #0abbc8;
+  --color-jade-deep: #077f8a;
+  --color-amber: #ff6522;
 
-  /* Product tile tints */
-  --color-tile-blush: #e9d9cc;
-  --color-tile-mist: #dbe3da;
-  --color-tile-clay: #e2cdb8;
-  --color-tile-stone: #e0dcd2;
+  /* Product tile tints — mango, sea foam, papaya, lagoon */
+  --color-tile-blush: #ffe5cc;
+  --color-tile-mist: #b8eef2;
+  --color-tile-clay: #ffd0a0;
+  --color-tile-stone: #96e2e8;
+
+  /* Tropical section palette */
+  --color-mango: #ff9a57;
+  --color-coral: #ff6522;
+  --color-ocean: #0c2d2d;
+  --color-coconut: #fef9f0;
+  --color-lagoon: #96e2e8;
+  --color-dusk: #ffb347;
 
   /* Type */
   --font-display: var(--font-fraunces);

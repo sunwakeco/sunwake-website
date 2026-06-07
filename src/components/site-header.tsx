@@ -2,7 +2,9 @@ const NAV = [
   { label: "The Blend", href: "#blend" },
   { label: "Shop", href: "#collection" },
   { label: "Our Story", href: "#story" },
-  { label: "Subscribe", href: "#subscribe" },
+  { label: "Blog", href: "/blog" },
+  { label: "Merch", href: "#merch" },
+  { label: "Waitlist", href: "/waitlist" },
 ];
 
 export function SiteHeader() {
@@ -20,7 +22,7 @@ export function SiteHeader() {
             href="#top"
             className="font-display text-2xl font-semibold tracking-[0.25em] text-espresso"
           >
-            PHIN
+            Sunwake
           </a>
 
           <ul className="hidden gap-8 md:flex">

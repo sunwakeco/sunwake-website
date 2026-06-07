@@ -16,11 +16,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "PHIN — Vietnamese Signature Blend Coffee",
+  title: "Sunwake — Vietnamese Signature Blend Coffee",
   description:
-    "PHIN roasts Trường Sơn, a signature blend of highland Đà Lạt Arabica and bold Đắk Lắk Robusta. Built for the phin, unstoppable as an espresso. Roasted to order, shipped across the US.",
+    "Sunwake roasts Trường Sơn, a signature blend of highland Đà Lạt Arabica and bold Đắk Lắk Robusta. Built for the phin, unstoppable as an espresso. Roasted to order, shipped across the US.",
   openGraph: {
-    title: "PHIN — Vietnamese Signature Blend Coffee",
+    title: "Sunwake — Vietnamese Signature Blend Coffee",
     description:
       "The taste of two Vietnams in one cup. Highland Arabica meets bold Robusta, roasted fresh and shipped across the US.",
     type: "website",

@@ -10,29 +10,29 @@ type Product = {
 const PRODUCTS: Product[] = [
   {
     origin: "The Spine",
-    name: "Trường Sơn — Signature Blend",
+    name: "Truong Son — Signature Blend",
     notes: "Caramel · cocoa · toasted nut",
     price: "$22.00",
     tile: "bg-tile-clay",
     featured: true,
   },
   {
-    origin: "Đà Lạt, Lâm Đồng",
-    name: "Sương — Highland Arabica",
+    origin: "Da Lat, Lam Dong",
+    name: "Mist — Highland Arabica",
     notes: "Bright · floral · stone fruit",
     price: "$24.00",
     tile: "bg-tile-mist",
   },
   {
-    origin: "Đắk Lắk",
-    name: "Đậm — Single-Origin Robusta",
+    origin: "Dak Lak",
+    name: "Bold — Single-Origin Robusta",
     notes: "Dark chocolate · toasted nut · bold",
     price: "$21.00",
     tile: "bg-tile-blush",
   },
   {
     origin: "Brew Kit",
-    name: "Cà Phê Sữa Kit",
+    name: "Milk Coffee Kit",
     notes: "Blend · condensed milk · real phin filter",
     price: "$38.00",
     tile: "bg-tile-stone",
@@ -59,7 +59,7 @@ function ProductCard({ product }: { product: Product }) {
             {product.name.split("—")[0].trim()}
           </span>
           <span className="text-[0.6rem] font-semibold uppercase tracking-widest text-espresso/60">
-            PHIN
+            Sunwake
           </span>
         </div>
       </div>

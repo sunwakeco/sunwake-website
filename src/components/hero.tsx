@@ -21,8 +21,8 @@ export function Hero() {
             Sunwake
           </h1>
           <p className="mt-6 max-w-md text-lg leading-relaxed text-cream/80">
-            Highland Arabica from the misty slopes of Đà Lạt, married to bold
-            Đắk Lắk Robusta. Built for the phin, unstoppable as an espresso.
+            Highland Arabica from the misty slopes of Da Lat, married to bold
+            Dak Lak Robusta. Built for the phin, unstoppable as an espresso.
           </p>
           <div className="mt-9 flex flex-wrap gap-4">
             <a
@@ -47,14 +47,14 @@ export function Hero() {
             <div>
               <p className="eyebrow text-amber">Signature Blend</p>
               <p className="mt-2 font-display text-3xl font-semibold leading-tight">
-                Trường Sơn
+                Truong Son
               </p>
             </div>
             <div className="space-y-1 text-xs text-espresso/70">
-              <p>Đà Lạt Arabica · Đắk Lắk Robusta</p>
+              <p>Da Lat Arabica · Dak Lak Robusta</p>
               <p>Caramel · Cocoa · Toasted nut</p>
               <p className="pt-2 font-semibold tracking-widest text-espresso">
-                PHIN · 12 OZ WHOLE BEAN
+                Sunwake · 12 OZ WHOLE BEAN
               </p>
             </div>
           </div>
